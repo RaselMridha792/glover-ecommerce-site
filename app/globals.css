@@ -2385,6 +2385,20 @@ section {
     font-size: clamp(38px, 11vw, 104px);
   }
 
+  /* Bigger dots and wider gaps so the 44 px hit areas never overlap. */
+  .swatches {
+    gap: 12px;
+  }
+
+  .swatch {
+    width: 26px;
+    height: 26px;
+  }
+
+  .swatch::after {
+    inset: -9px;
+  }
+
   .product-grid,
   .grid-3 {
     grid-template-columns: 1fr;
