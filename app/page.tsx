@@ -88,7 +88,6 @@ export default function HomePage() {
         </div>
       </PageHero>
 
-      {/* ------------------------------ manifesto ------------------------------ */}
       <section className="section-cream" style={{ borderTop: "1px solid var(--line-dark)" }}>
         <div className="wrap pad-sm cols cols-1-14 cols-center">
           <div>
@@ -119,8 +118,6 @@ export default function HomePage() {
       </section>
 
       <Tape items={["Protect your crown", "No compromise", "Built to perform", "We are Glover"]} />
-
-      {/* --------------------------- featured products --------------------------- */}
       <section className="section-dark pad">
         <div className="wrap">
           <div className="row-between" style={{ marginBottom: 40 }}>
@@ -144,8 +141,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ------------------------------ categories ------------------------------- */}
       <section className="section-dark pad-sm" style={{ borderTop: "1px solid var(--line)" }}>
         <div className="wrap">
           <h2 className="display h3 reveal" style={{ margin: "0 0 .5em" }}>
@@ -174,8 +169,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ----------------------------- training split ----------------------------- */}
       <section className="section-cream">
         <div className="wrap split" style={{ minHeight: 540 }}>
           <div style={{ position: "relative", minHeight: 420, overflow: "hidden" }}>
