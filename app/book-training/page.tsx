@@ -45,7 +45,9 @@ export default function BookTrainingPage() {
       <section className="section-dark pad-sm">
         <div className="wrap cols cols-1-2">
           <aside className="booking-aside">
-            <span className="eyebrow bracket">Details</span>
+            <h2 className="display h4" style={{ margin: "0 0 .3em" }}>
+              Details.
+            </h2>
             <ul style={{ listStyle: "none", padding: 0, margin: "18px 0 0", display: "grid", gap: 18 }}>
               {details.map((detail) => (
                 <li key={detail.label}>

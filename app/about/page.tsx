@@ -72,11 +72,10 @@ export default function AboutPage() {
       <section className="section-cream pad">
         <div className="wrap cols cols-1-15">
           <div>
-            <span className="eyebrow on-cream bracket">Pushing boundaries</span>
-            <div
-              className="frame"
-              style={{ aspectRatio: "4 / 3", position: "relative", marginTop: 22 }}
-            >
+            <h2 className="display h3 reveal" style={{ margin: "0 0 .4em" }}>
+              Pushing boundaries.
+            </h2>
+            <div className="frame" style={{ aspectRatio: "4 / 3", position: "relative" }}>
               <Image
                 src="/images/products/detail-crown-logo.jpg"
                 alt="Close-up of the Glover crown embossed on full-grain leather"
@@ -150,6 +149,11 @@ export default function AboutPage() {
 
       {/* -------------------------------- values ---------------------------------- */}
       <section className="section-dark pad-sm">
+        <div className="wrap">
+          <h2 className="display h3 reveal" style={{ margin: "0 0 .5em" }}>
+            What we stand on.
+          </h2>
+        </div>
         <div className="wrap grid-3">
           {values.map((value, index) => (
             <div className="numbered reveal" key={value.title}>
@@ -170,8 +174,10 @@ export default function AboutPage() {
       {/* ------------------------------- timeline --------------------------------- */}
       <section className="section-cream pad">
         <div className="wrap">
-          <span className="eyebrow on-cream bracket">The road so far</span>
-          <div className="grid-4" style={{ gap: 24, marginTop: 26 }}>
+          <h2 className="display h3 reveal" style={{ margin: "0 0 .5em" }}>
+            The road so far.
+          </h2>
+          <div className="grid-4" style={{ gap: 24 }}>
             {timeline.map((item) => (
               <div
                 className="reveal"

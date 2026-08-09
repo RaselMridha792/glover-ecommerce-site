@@ -64,7 +64,7 @@ export default function HomePage() {
   return (
     <>
       <PageHero
-        image="/images/lifestyle/ring-canvas-gear.jpg"
+        image="/images/lifestyle/home-hero.jpg"
         imageAlt="Gloves, pads and wraps laid out on the red ring canvas"
         eyebrow="Est. Glover Sports"
         meta="premium fight equipment"
@@ -92,10 +92,12 @@ export default function HomePage() {
       <section className="section-cream" style={{ borderTop: "1px solid var(--line-dark)" }}>
         <div className="wrap pad-sm cols cols-1-14 cols-center">
           <div>
-            <span className="eyebrow on-cream bracket">Manifesto</span>
+            <h2 className="display h3 reveal" style={{ margin: "0 0 .4em" }}>
+              Manifesto.
+            </h2>
             <div
               className="frame"
-              style={{ aspectRatio: "4 / 5", position: "relative", marginTop: 22 }}
+              style={{ aspectRatio: "4 / 5", position: "relative" }}
             >
               <Image
                 src="/images/lifestyle/fighter-guard.jpg"
@@ -146,8 +148,10 @@ export default function HomePage() {
       {/* ------------------------------ categories ------------------------------- */}
       <section className="section-dark pad-sm" style={{ borderTop: "1px solid var(--line)" }}>
         <div className="wrap">
-          <span className="eyebrow bracket">Shop by category</span>
-          <div className="grid-3" style={{ marginTop: 26 }}>
+          <h2 className="display h3 reveal" style={{ margin: "0 0 .5em" }}>
+            Shop by category.
+          </h2>
+          <div className="grid-3">
             {categories.map((item) => (
               <Link className="cat-card reveal" href={item.href} key={item.title}>
                 <div className="cat-card-media">

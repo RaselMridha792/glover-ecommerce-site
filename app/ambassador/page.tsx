@@ -47,8 +47,10 @@ export default function AmbassadorPage() {
       {/* ------------------------------ how it works ------------------------------ */}
       <section className="section-cream pad">
         <div className="wrap">
-          <span className="eyebrow on-cream bracket">How it works</span>
-          <div className="grid-3" style={{ marginTop: 26 }}>
+          <h2 className="display h3 reveal" style={{ margin: "0 0 .5em" }}>
+            How it works.
+          </h2>
+          <div className="grid-3">
             {steps.map((step, index) => (
               <div
                 className="reveal"

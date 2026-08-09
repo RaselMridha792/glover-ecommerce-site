@@ -934,13 +934,12 @@ section {
   transform: scale(1.05);
 }
 
+/* Stacked rather than inline: "Equipment & Accessories" wraps on one card and
+   would otherwise leave the three tiles at different heights. */
 .cat-card-body {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
+  display: grid;
+  gap: 8px;
   padding: 16px 18px 18px;
-  flex-wrap: wrap;
 }
 
 /* ---------------------------------------------------------

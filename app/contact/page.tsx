@@ -86,8 +86,10 @@ export default function ContactPage() {
 
       <section className="section-cream pad-sm">
         <div className="wrap">
-          <span className="eyebrow on-cream bracket">Send a message</span>
-          <div style={{ marginTop: 26 }}>
+          <h2 className="display h3 reveal" style={{ margin: "0 0 .5em" }}>
+            Send a message.
+          </h2>
+          <div>
             <LeadForm
               variant="cream"
               submitLabel="Send"
