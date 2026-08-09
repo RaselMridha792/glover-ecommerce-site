@@ -73,14 +73,18 @@ export default function AboutPage() {
         <div className="wrap cols cols-1-15">
           <div>
             <span className="eyebrow on-cream bracket">Pushing boundaries</span>
-            <Image
-              src="/images/brand/glover-sports-lockup.png"
-              alt="Glover Sports"
-              width={1400}
-              height={651}
-              sizes="300px"
-              style={{ width: "min(300px, 100%)", height: "auto", marginTop: 26 }}
-            />
+            <div
+              className="frame"
+              style={{ aspectRatio: "4 / 3", position: "relative", marginTop: 22 }}
+            >
+              <Image
+                src="/images/products/detail-crown-logo.jpg"
+                alt="Close-up of the Glover crown embossed on full-grain leather"
+                fill
+                sizes="(max-width: 980px) 100vw, 38vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
           </div>
           <div>
             <p className="lede" style={{ marginBottom: 24 }}>

@@ -59,10 +59,10 @@ export default async function ShopPage({
             style={{ aspectRatio: "5 / 4", position: "relative", background: "var(--cream-3)" }}
           >
             <Image
-              src="/images/lifestyle/fighter-guard.jpg"
-              alt="Fighter holding a high guard in crimson Glover gloves"
+              src="/images/lifestyle/pro-fight-cross.jpg"
+              alt="Pro boxer landing a cross wearing Glover gloves"
               fill
-              sizes="(max-width: 860px) 100vw, 40vw"
+              sizes="(max-width: 980px) 100vw, 40vw"
               style={{ objectFit: "cover" }}
               priority
             />

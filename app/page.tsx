@@ -64,8 +64,8 @@ export default function HomePage() {
   return (
     <>
       <PageHero
-        image="/images/products/detail-crown-logo.jpg"
-        imageAlt="Close-up of the Glover crown embossed on black leather"
+        image="/images/lifestyle/ring-canvas-gear.jpg"
+        imageAlt="Gloves, pads and wraps laid out on the red ring canvas"
         eyebrow="Est. Glover Sports"
         meta="premium fight equipment"
         priority
@@ -90,8 +90,22 @@ export default function HomePage() {
 
       {/* ------------------------------ manifesto ------------------------------ */}
       <section className="section-cream" style={{ borderTop: "1px solid var(--line-dark)" }}>
-        <div className="wrap pad-sm cols cols-1-14">
-          <span className="eyebrow on-cream bracket">Manifesto</span>
+        <div className="wrap pad-sm cols cols-1-14 cols-center">
+          <div>
+            <span className="eyebrow on-cream bracket">Manifesto</span>
+            <div
+              className="frame"
+              style={{ aspectRatio: "4 / 5", position: "relative", marginTop: 22 }}
+            >
+              <Image
+                src="/images/lifestyle/fighter-guard.jpg"
+                alt="Fighter holding a high guard in crimson Glover gloves under ring lights"
+                fill
+                sizes="(max-width: 980px) 100vw, 40vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+          </div>
           <p className="lede">
             Our gloves are built to perform, designed to stand out, and made for those who refuse to
             settle. Crafted with premium materials for durability, comfort, and clean, confident
